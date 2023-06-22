@@ -50,7 +50,9 @@ const Service = () => {
 
   return (
     <div className="services-page">
+      {/* <h1>Our Services</h1> */}
       <h1>Our Services</h1>
+      <h3>...</h3>
       <div className="service-cards">
         {services.map((service, index) => (
           <ServiceCard key={index} service={service} />
