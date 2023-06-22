@@ -1,13 +1,20 @@
 import React from 'react';
-import logo from './assests/logo.png';
+import bg from './assests/bgvid.gif';
 
-export default function Home() {
-  return (
-    <>
-    <div>
-        <h1>hii</h1>
-      <img src={logo} alt='logo'></img>
-    </div>
-    </>
-  )
-}
+import { Link } from "react-router-dom";
+import '../styles/Home.css';
+function Home() {
+    return (
+      <div className="home" style={{ backgroundImage: `url(${bg})` }}>
+        <div className="headerContainer">
+          <h1> Dcyber Techlab </h1>
+          <p> INFINITE POSSIBILITIES</p>
+          <Link to="/service">
+            <button> Let's start </button>
+          </Link>
+        </div>
+      </div>
+    );
+  }
+  
+  export default Home;
