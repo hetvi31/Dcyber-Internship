@@ -1,16 +1,24 @@
-.service-cards{
-    width: 100%;
+/* .service-card{ 
+    width: 100%; 
     overflow: hidden;
-    box-shadow: 0px 0px 15px -5px;
+     box-shadow: 0px 0px 15px -5px; 
     transition: 0.5s;
     animation: ease-in;
-}
+}  */
 
-  .card-container:hover {
-    transform: scale(1.1);
+.service-card {
+    overflow: hidden;
+    /* box-shadow: 0px 0px 15px -5px; */
+    transition: 0.5s;
+    animation: ease-in;
+
+  }
+
+.service-card:hover {
+    transform: scale(0.7.0.7);
     box-shadow: 0px 0px 15px 0px;
   }
-  
+   
   .service-card-image img {
     overflow: hidden;
     height: 50px;
@@ -20,33 +28,50 @@
     margin: 1rem;
     margin-top: 0.3rem;
     font-weight:lighter;
-    
+    padding:2%;
   }
   
   .service-card-title {
     margin-bottom: 0.5rem;
+    transition: font-weight 0.3s;
+  }
+
+  .service-card:hover .service-card-title {
+    color:red;
+  
   }
   
   .service-card-title{
     margin: 0;
     padding: 0;
-    color:red;
+    /* color:red; */
     margin-top: 1.3rem;
-    font-weight: bold;
+    /* font-weight: bolder; */
+    font-size:larger;
+    color:black;
     
   }
   .service-card-description {
     margin: 0;
     padding: 0;
-    text-align: justify;
+    text-align:center;
     margin-top: 1rem;
-    
-  }
+    font-size: large;
+    transition: font-weight 0.3s; /* Add transition for smooth effect */
+}
+
+.service-card:hover .service-card-description {
+    font-size:larger;
+    /* Apply bold font on hover */
+
+}
+  
   
   .service-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
     gap: 20px; /* Adjust the gap between cards */
+    margin: 0 70px;
   }
 
   h3{
@@ -54,6 +79,7 @@
   }
   
   h1{
+    color:red;
     font-weight: bolder;
     margin-top: 3rem;
     text-align: center;

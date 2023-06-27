@@ -1,0 +1,43 @@
+/* .partners-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    /* grid-auto-rows: 200px;  Adjust the fixed height of grid cells  */
+    /*gap: 80px;  Adjust the gap between images */
+    /* margin: 0 40px; Adjust the left and right margins
+  } */
+  
+  /* .partner.image {
+    width: 100%; /* Adjust the image width to fill the grid cell */
+    /* height: 100%;  Maintain the aspect ratio */
+    /* object-fit: cover;  Maintain aspect ratio */ 
+  
+   
+  /* Optional: Add hover effect */
+/* .partner.image:hover {
+    opacity: 0.8;  Adjust the opacity value as desired 
+  }
+  */
+
+
+  .partners-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    gap: 20px; /* Adjust the gap between images */
+    margin: 0 50px; /* Adjust the left and right margins */
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .partner-image {
+    width: 100%; /* Adjust the image size as needed */
+    height: auto;
+  }
+  
+  /* Optional: Add hover effect */
+  .partner-image:hover {
+    opacity: 0.8; /* Adjust the opacity value as desired */
+  }
+  
