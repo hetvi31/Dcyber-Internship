@@ -69,6 +69,7 @@ import p14 from './assests/pt14.png';
 import p15 from './assests/pt15.png';
 import p16 from './assests/pt16.jpg';
 import p17 from './assests/pt17.jpg';
+import PartnerCard from './PartnerCard';
 
 const Partners = () => {
   const partners = [
@@ -91,34 +92,17 @@ const Partners = () => {
     { image: p17, link: 'https://platform9.com/' },
   ];
 
-//   return (
-//     <div className="partners-grid">
-//       {partners.map((partner, index) => (
-//         <a key={index} href={partner.link} target="_blank" rel="noopener noreferrer">
-//           <img src={partner.image} alt={`Partner ${index + 1}`} className="partner-image" />
-//         </a>
-//       ))}
-//     </div>
-//   );
-// };
-
-const rows = Math.ceil(partners.length / 3);
 
 return (
-  <div className="partners-grid">
-    {Array.from({ length: rows }, (_, rowIndex) => (
-      <div className="row" key={rowIndex}>
-        {partners.slice(rowIndex * 3, (rowIndex + 1) * 3).map((partner, index) => (
-          <a key={index} href={partner.link} target="_blank" rel="noopener noreferrer">
-            <img src={partner.image} alt={`Partner ${index + 1}`} className="partner-image" />
-          </a>
-        ))}
-      </div>
-    ))}
+  <div id='partner' className="partners-page">
+    <h1>Our Partners</h1>
+    <div className="partners-card-container">
+      {partners.map((partner, index) => (
+        <PartnerCard key={index} partner={partner} />
+      ))}
+    </div>
   </div>
 );
 };
-
-
 
 export default Partners;

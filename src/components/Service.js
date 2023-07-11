@@ -51,8 +51,7 @@ const Service = () => {
 
 
   return (
-    <div className="services-page">
-      {/* <h1>Our Services</h1> */}
+    <div id='service' className="services-page">
       <h1>Our Services</h1>
       <h3>...</h3>
       <div className="service-cards">

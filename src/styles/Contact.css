@@ -1,0 +1,114 @@
+.left img{
+    height:70%;
+    width:70%;
+    align-items: left;
+    border: #121619;
+    margin-top: -200px;
+}
+
+ h1{
+
+        color:red;
+        font-weight: bolder;
+        margin-top: 3rem;
+        text-align: center;
+      
+      
+}
+.contact {
+    width: 100%;
+    height: 90vh;
+    /* display: flex; */
+    color:red;
+       
+        margin-top: 3rem;
+        text-align: center;
+      
+  }
+  
+  /* .contact .left {
+    height: 100%;
+    flex: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+     background-size: cover; 
+  }  */
+  
+  .contact .right {
+    height: 100%;
+    flex: 60%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: larger;
+  }
+  
+   /* .contact .rightSide h1 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-weight: 10;
+    font-size: 50px;
+    margin-left: 30px;
+  } 
+   */
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 100%;
+    padding: 30px;
+    margin-left: 300px;
+    font-size: xx-large;
+  }
+  
+  form input {
+    height: 40px;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid #121619;
+    color: black;
+  }
+  
+  form textarea {
+    margin-top: 15px;
+    height: 100px;
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid #121619;
+    color: black;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color:grey;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  form input:focus,
+  textarea:focus {
+    outline:auto;
+  }
+  
+  form label {
+    margin-top: 30px;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: x-large;
+    margin-bottom: 20px;
+  }
+  
+  form button {
+    margin-top: 40px;
+    width: 140px;
+    height: 40px;
+    border: none;
+    background-color: #121619;
+    color: whitesmoke;
+    font-size: 15px;
+    cursor: pointer;
+  } 
+
+  

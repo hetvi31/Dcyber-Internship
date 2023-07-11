@@ -30,6 +30,7 @@ import '../styles/About.css'
 
 const AboutUs = () => {
   return (
+    <div id='about'>
     <table className="about-us-table">
        
       <tr>
@@ -44,6 +45,7 @@ DCYBER is Start-up in the field of Digital Cyber Security. DCYBER is introduce b
         </td>
       </tr>
     </table>
+    </div>
   );
 };
 

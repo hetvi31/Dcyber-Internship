@@ -46,6 +46,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Team from './components/Team';
 import Blog from './components/Blog';
+
 function App() {
   return (
     <div className="App">
@@ -60,9 +61,9 @@ function App() {
                 <Route path='/team'  element={<Team />} />
                 <Route path='/contact'  element={<Contact />} />
                 <Route path='/blog'  element={<Blog />} />
-            </Routes>
-             
+                 </Routes>
      </Router>
+     
        
     </div>
   );

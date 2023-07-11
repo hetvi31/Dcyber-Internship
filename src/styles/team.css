@@ -1,0 +1,52 @@
+.social-icons {
+    
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+
+  .social-icons a {
+    margin-right: 1px;
+    padding: 0 8px;
+ 
+  }
+  
+  .social-icons a:last-child {
+    margin-right: 0; 
+  }
+
+  .post{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content:end;
+    font-weight: bolder;
+    color:gray;
+    margin-top: 2px;
+    text-align:center;
+
+  }
+  /* .card {
+    box-shadow: 0px 0px 14px -5px;
+    max-width: 320px;
+    margin: auto 1rem;
+    text-align: center;
+    font-family: arial;
+    margin-top: 50px;
+    margin-left:auto;
+    margin-right: auto;
+  } */
+
+  .card {
+    box-shadow: 0px 0px 5px -2px;
+    max-width: 320px;
+    margin: auto 1rem;
+    text-align: center;
+    font-family: Arial;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .card:hover {
+    opacity: 0.7;
+  }
+

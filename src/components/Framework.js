@@ -19,7 +19,7 @@ import '../styles/Framework.css';
 
 function Framework() {
   return (
-    <div className='fw'>
+    <div id='framework' className='fw'>
         <h1>Framework</h1>
       <img src={fw} alt="framework" />
     </div>

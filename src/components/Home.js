@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import '../styles/Home.css';
 function Home() {
     return (
-      <div className="home" style={{ backgroundImage: `url(${bg})` }}>
+      <div id='home' className="home" style={{ backgroundImage: `url(${bg})` }}>
         <div className="headerContainer">
           <h1> Dcyber Techlab </h1>
           <p> INFINITE POSSIBILITIES</p>
